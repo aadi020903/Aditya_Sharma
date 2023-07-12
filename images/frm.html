@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ .a{
+    width: 763px;
+ }
+ .b{
+    height: 40px;
+ }
+</style> 
+<script>
+    function fun(){
+
+    alert("Are you sure you want to Submit");
+}
+
+    function reset1(){
+        alert("Are you sure want to cancel");
+    }
+</script>
+<body background="Thor Odinson.jpg" width="100%">
+    <pre>
+    <form action="" color="Purple">
+        <font size="20px" color="Blue">                      Credentials Page </font>
+        <font size="5" ><b>
+
+            Name      :  <input type="text" class="a">
+            
+            Password  :  <input type="password" class="a">
+            
+            Address   :  <input type="text" class="a">
+            
+            Email     :  <input type="email" class="a">
+            
+            Country   :  <input type="text" class="a">
+
+            <span>City :</span>                                                         <span>Sex :</span>
+            
+            <select style="width: 150px;" >
+                <option>Select</option>
+                <option value="Alwar">Alwar</option>
+                <option value="Gurgaon">Gurgaon</option>
+                <option value="Bengalure">Bengalure</option>
+                <option value="Noida">Noida</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Ajmer">Ajmer</option>
+            </select>                                           <input type="radio" name="sex">Male <input type="radio" name="sex">Female
+            
+            <span>Skills :-</span>
+
+            <input type="checkbox" style="width: 12px; ">Web Development                             <input type="checkbox" style="width: 12px; ">Java Programmer
+
+            <input type="checkbox" style="width: 12px; ">Android Development                         <input type="checkbox" style="width: 12px; ">C++ Programmer
+ 
+            <input type="checkbox" style="width: 12px; ">Python Programmer                           <input type="checkbox" style="width: 12px; ">software Development
+
+            <input type="checkbox" style="width: 12px; ">Cyber Security                              <input type="checkbox" style="width: 12px; "> AI Developer
+
+            
+            
+            <span>Upload CV :</span>                                        <span>Upload Image :</span>
+            
+            <input type="file">                              <input type="file">
+
+           
+            <span>DOB :</span>                                           <span>Age :</span> <input type="text" style="width: 170px;" class="b">
+            
+            <input type="date" class="a b">                  
+
+            
+                              <input type="button" value="Click Before Submit" onclick=fun() class="b" style="width: 170px;">        <input type="reset" value="Cancel Form" onclick=reset1() class="b" style="width: 170px;">
+
+                                        
+                                            <input type="submit" value="Submit Form" class="b" style="width: 170px;">
+
+    </form>
+    </pre>
+</body>
+</html>
